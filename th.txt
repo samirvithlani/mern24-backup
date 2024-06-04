@@ -1,0 +1,56 @@
+			  REACT JS
+Web     application : website
+Mobile  application : ....
+Desktop application : chrome,zoom
+
+----------------------------------------
+Web applications:
+methodlogy | ARCH :
+
+monolithic arch   :
+micro service arch: 
+	
+
+	MVC ARCH: model view and controller: JSP,SERVLET, .net 			  core		
+	MVVM ARCH : model view , view model
+		    ANGULAR , REACT
+------------------------------------------------------
+REACT why ANG ?
+SPA : single page application
+Component based dev :
+Amazone : Navbar, products, productDetail, Profile...
+
+--------------------------------------------------
+JAVASCRIPT
+JSON
+json array
+promise : async await
+string  :
+---------------------------------
+node js install 
+vs code
+
+React core:
+how to create react application:
+
+D:
+ projects
+   batchName[client name[tcs]]
+	project
+
+NPM : --> node package manager
+npm --> node_modules --> build files --> folders[]
+ --> js files | ts file --> functions -->....
+
+
+npx --> node package exc....
+
+npx create-react-app learning24
+
+
+------------------------------------
+react js supports 2 type of compon
+class based comp   :
+
+16v : hooks
+function based comp:
