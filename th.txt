@@ -54,3 +54,19 @@ class based comp   :
 
 16v : hooks
 function based comp:
+
+---------------------------
+
+pass data between components:
+there are 3 ways to pass data between components:
+
+props : parent to child
+context api : parent to child
+redux : parent to child | sibling to sibling | child to parent | grand parent to grand child
+
+
+props:
+props is a special keyword in react which stands for properties and is 
+being used for passing data from one component to another.
+props are read only,
+props are immutable.
