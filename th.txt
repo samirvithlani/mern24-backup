@@ -70,3 +70,24 @@ props is a special keyword in react which stands for properties and is
 being used for passing data from one component to another.
 props are read only,
 props are immutable.
+
+
+-----------------------------------
+forEach : because it is returing void....
+map : it is returning array of elements...
+
+ {
+				//u === users[i]
+                users.map((u)=>{
+                    return <li>{u}</li>
+                })
+            }
+
+for(let i=0;i<user.length;i++){
+	return <li>{user[i]}</li>
+}			
+
+
+props.students && props.students.map((student)=>{
+	return <li>{student.name}</li>
+})
