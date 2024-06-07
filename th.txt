@@ -91,3 +91,13 @@ for(let i=0;i<user.length;i++){
 props.students && props.students.map((student)=>{
 	return <li>{student.name}</li>
 })
+
+
+react js following concept of virtual dom:
+virtual dom is a lightweight copy of the real dom.
+when we update the state of the component, the virtual dom is updated first.
+then the diff algorithm runs to identify the difference between the previous dom and the new dom.
+
+to update state of real dom we will use usestate hook.
+hook: v.16 function based :
+hooks are builtin life cycle methods of react js.

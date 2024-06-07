@@ -1,9 +1,18 @@
 import React from 'react'
 
 export const StudentList = (props) => {
+
+  const stuObj = {
+    id:4,
+    name:'Rajesh',
+    age:24,
+    marks:90
+  }
   console.log(props);
   return (
     <div>
+      <button onClick={()=>{props.addStudent(stuObj)}} className='btn btn-primary'>ADD</button>
+      
         <h2 style={{color:"red"}}>Student List</h2>
         <table className='table table-dark'>
           <thead>
