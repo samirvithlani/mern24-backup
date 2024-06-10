@@ -12,6 +12,7 @@ import { Eletronics } from "./amazon/Eletronics";
 import { Fashio } from "./amazon/Fashio";
 import { AmazoneHome } from "./amazon/AmazoneHome";
 import { Error404 } from "./amazon/Error404";
+import { ProductDetail } from "./amazon/ProductDetail";
 
 function App() {
   var title = "Welcome to React";
@@ -29,6 +30,7 @@ function App() {
         <Route path="/products" element={<Products />}></Route>
         <Route path="/products/ele" element={<Eletronics />}></Route>
         <Route path="/fashion" element={<Fashio />}></Route>
+        <Route path = "/products/detail/:id" element = {<ProductDetail/>}></Route>
         {/* <Route path="/*" element={<h1>404 page...</h1>}></Route> */}
         <Route path="/*" element={<Error404 />}></Route>
       </Routes>
