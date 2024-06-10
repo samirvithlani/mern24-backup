@@ -5,6 +5,13 @@ import Content from "./components/Content";
 import { MapDemo } from "./components/MapDemo";
 import { Students } from "./components/students/Students";
 import { UseStateDemo } from "./components/UseStateDemo";
+import { Navbar } from "./Navbar";
+import { Route, Routes } from "react-router-dom";
+import { Products } from "./amazon/Products";
+import { Eletronics } from "./amazon/Eletronics";
+import { Fashio } from "./amazon/Fashio";
+import { AmazoneHome } from "./amazon/AmazoneHome";
+import { Error404 } from "./amazon/Error404";
 
 function App() {
   var title = "Welcome to React";
@@ -16,11 +23,15 @@ function App() {
 
   return (
     <div className="App">
-      <Header title={title} c={city}></Header>
-      {/* <Content emp ={employee}></Content> */}
-      {/* <MapDemo/> */}
-      <Students/>
-      {/* <UseStateDemo></UseStateDemo> */}
+      <Navbar></Navbar>
+      <Routes>
+        <Route path="/" element={<AmazoneHome />}></Route>
+        <Route path="/products" element={<Products />}></Route>
+        <Route path="/products/ele" element={<Eletronics />}></Route>
+        <Route path="/fashion" element={<Fashio />}></Route>
+        {/* <Route path="/*" element={<h1>404 page...</h1>}></Route> */}
+        <Route path="/*" element={<Error404 />}></Route>
+      </Routes>
     </div>
   );
 }

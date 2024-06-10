@@ -101,3 +101,15 @@ then the diff algorithm runs to identify the difference between the previous dom
 to update state of real dom we will use usestate hook.
 hook: v.16 function based :
 hooks are builtin life cycle methods of react js.
+
+
+---------------------------------------------------
+routes:
+
+1 page -->2 page --> 3 page --> 4 page
+
+react-router-dom : npm install react-router-dom v.6.x
+
+<BrowerRouter> : it is used to create a router in react js.
+</BrowserRouter> :
+
