@@ -18,6 +18,13 @@ export const Navbar = () => {
           <li class="nav-item active">
             <Link to="/products" className="nav-link">Products</Link>
           </li>
+          
+          <li class="nav-item active">
+            <Link to="/formdemo1" className="nav-link">formdemo1</Link>
+          </li>
+          <li class="nav-item active">
+            <Link to="/formdemo2" className="nav-link">formdemo2</Link>
+          </li>
         </ul>
       </div>
     </nav>
