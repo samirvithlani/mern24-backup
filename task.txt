@@ -1,0 +1,18 @@
+<select> </select>
+
+country
+india
+
+<select> </select>
+states
+
+hint: json array :[
+    {
+        name:india,
+        cities:["delhi","mumbai","kolkata"]
+    }
+]
+
+-->useState
+--> onchange
+-->use-form
