@@ -113,3 +113,9 @@ react-router-dom : npm install react-router-dom v.6.x
 <BrowerRouter> : it is used to create a router in react js.
 </BrowserRouter> :
 
+{
+	required:{
+		value:true,message:"age is required*"
+		}
+}
+
