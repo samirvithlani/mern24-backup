@@ -118,4 +118,16 @@ react-router-dom : npm install react-router-dom v.6.x
 		value:true,message:"age is required*"
 		}
 }
+-------------------------------------------------------------
+form: copy....
+
+create custome button  | reusbality
+
+1 component : MyButton --> return (<button>)
+
+name*
+function*
+css class 
+
+props :
 
