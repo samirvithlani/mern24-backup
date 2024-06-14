@@ -23,15 +23,30 @@ const getApiCall = async()=>{
         <h1 style={{color: 'blue'}}>ApiDemo1</h1>
         <button onClick={()=>{getApiCall()}}>Get Api Call</button>
         {message}
-        <ul>
+       <table className='table table-dark'>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>AGE</td>
+                <td>STATUS</td>
+            </tr>
+        </thead>
+        <tbody>
             {
-                users.map((user)=>{
-                    return(
-                        <li>{user._id} -- {user.name}</li>
-                    )
+                users?.map((user)=>{
+                    return(<tr>
+                        <td>{user._id}</td>
+                        <td>{user.name}</td>
+                        <td>{user.email}</td>
+                        <td>{user.age}</td>
+                        <td>{user.isActive ? "Active":"Not Active"}</td>
+                    </tr>)
                 })
             }
-        </ul>
+        </tbody>
+       </table>
     </div>
   )
 }
