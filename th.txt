@@ -131,3 +131,46 @@ css class
 
 props :
 
+API : --> URL -->JSON
+
+ZOMATO APPL: google map :: --> code * --> api -> map display
+
+Google :- weather --> api --> display
+
+request methods : GET, POST, PUT, DELETE
+
+GET : read : data fetch 
+POST : Android phone , subbmit --> nodejs --> db --> insert
+PUT : update
+DELETE : delete
+
+API CALLING:
+producers : backedn --> ddevelope --> front end 
+consumers : api created --> use --> consume
+
+
+
+fetch() : lazy loading
+axios : npm install axios
+
+promise then catch 
+async await
+
+---------------------------------------------------
+sync
+non sync
+
+1 2 3 4 5 6 7 8 9 10 --> 10 sec
+0000000000000000000 ---> 
+1 2 3 4 5 6 7 8 9 10 --> 10 sec
+ ---------->
+
+
+ ---------------------------------------------------
+non sync
+ api --> call ---> data : 3 sec
+ data use --- undefined
+
+
+ promise: js class: --> pending, resolve | reject
+ 

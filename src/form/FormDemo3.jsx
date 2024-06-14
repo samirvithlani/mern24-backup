@@ -1,17 +1,25 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { MyButton } from "../components/MyButton";
 
 export const FormDemo3 = () => {
   const submitHandler = (data) => {
+    reset();
     alert("submitted...");
     console.log(data);
   };
+
+  const funcToBeCalled = () => {
+    alert("button clicked...");
+  }
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+    reset
+  } = useForm({mode:"all"});
+
   console.log("errors...", errors);
 
   const validationSchema = {
@@ -123,10 +131,11 @@ export const FormDemo3 = () => {
         
         <div>
           <input type="submit" value="submit"></input>
+          
         </div>
       </form>
 
-      
+
     </div>
   );
 };

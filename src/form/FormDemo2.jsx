@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import { MyButton } from "../components/MyButton";
 
 export const FormDemo2 = () => {
   //useForm
@@ -20,6 +21,7 @@ export const FormDemo2 = () => {
 
   return (
     <div>
+      <MyButton name ="add" classsss = "btn btn-info"></MyButton>
       <h1 style={{ color: "red" }}>Form Demo 2</h1>
       <form onSubmit={handleSubmit(submitHandler)}>
         <div>
