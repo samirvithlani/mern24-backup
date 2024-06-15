@@ -17,6 +17,7 @@ import { FormDemo1 } from "./form/FormDemo1";
 import { FormDemo2 } from "./form/FormDemo2";
 import { FormDemo3 } from "./form/FormDemo3";
 import { ApiDemo1 } from "./api/ApiDemo1";
+import { UseEffectDemo } from "./components/UseEffectDemo";
 
 function App() {
   var title = "Welcome to React";
@@ -38,6 +39,7 @@ function App() {
         <Route path ="/formdemo1" element  = {<FormDemo1/>}></Route>
         <Route path ="/formdemo2" element  = {<FormDemo2/>}></Route>
         <Route path ="/formdemo3" element  = {<FormDemo3/>}></Route>
+        <Route path = "/useeffectdemo" element = {<UseEffectDemo/>}></Route>
         <Route path ="/apidemo1" element = {<ApiDemo1/>}></Route>
         {/* <Route path="/*" element={<h1>404 page...</h1>}></Route> */}
         <Route path="/*" element={<Error404 />}></Route>

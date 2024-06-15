@@ -174,3 +174,11 @@ non sync
 
  promise: js class: --> pending, resolve | reject
  
+
+ useEffect : to handle side effect is react js. we use useEffect hook.
+ side effect :
+
+ setTimeout : -->
+ chat application :
+
+ send : --- 
