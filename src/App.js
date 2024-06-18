@@ -21,6 +21,7 @@ import { UseEffectDemo } from "./components/UseEffectDemo";
 import { ApiDemo2 } from "./api/ApiDemo2";
 import { ApiDemo3 } from "./api/ApiDemo3";
 import { ApiDemo4 } from "./api/ApiDemo4";
+import { UpdateUser } from "./api/UpdateUser";
 
 function App() {
   var title = "Welcome to React";
@@ -47,6 +48,7 @@ function App() {
         <Route path ="/apidemo2" element = {<ApiDemo2/>}></Route>
         <Route path ="/apidemo3" element = {<ApiDemo3/>}></Route>
         <Route path ="/apidemo4" element = {<ApiDemo4/>}></Route>
+        <Route path = "/updateUser/:id" element = {<UpdateUser/>}></Route>
         
         {/* <Route path="/*" element={<h1>404 page...</h1>}></Route> */}
         <Route path="/*" element={<Error404 />}></Route>
